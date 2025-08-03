@@ -26,4 +26,6 @@ AWS Systems Manager (SSM) – Secure credentials storage
 
 Images from the project;
 
+![Image](https://github.com/user-attachments/assets/b0b2a143-7827-404c-b3cf-e60846838a0f)
+
 
