@@ -24,6 +24,7 @@ AWS IAM – Access control
 
 AWS Systems Manager (SSM) – Secure credentials storage
 
-
+Images from the project;
+![Image](https://github.com/user-attachments/assets/5a45ce9b-ad5d-492f-bfef-464e46a5d76f)
 
 
