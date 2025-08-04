@@ -12,9 +12,9 @@ The infrastructure was provisioned using Terraform, while the workflow is manage
 
 Python - Scripting
 
-'''bash
+```bash
 Apache Airflow – Workflow orchestration
-'''
+```
 
 Terraform – Infrastructure as code
 
