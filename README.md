@@ -20,6 +20,8 @@ AWS S3 – Storage layer
 
 Relational Database Service - database management 
 
+Redshift - Data warehouse
+
 AWS IAM – Access control
 
 AWS Systems Manager (SSM) – Secure credentials storage
