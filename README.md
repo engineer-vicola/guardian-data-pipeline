@@ -18,6 +18,8 @@ Terraform – Infrastructure as code
 
 AWS S3 – Storage layer
 
+Airbyte - Data Integration
+
 Relational Database Service - database management 
 
 Redshift - Datawarehouse
