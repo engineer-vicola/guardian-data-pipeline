@@ -10,7 +10,7 @@ The infrastructure is provisioned using Terraform, while the workflow is managed
 
 **Tech Stack**
 
-Python
+Python - Scripting
 
 Apache Airflow – Workflow orchestration
 
