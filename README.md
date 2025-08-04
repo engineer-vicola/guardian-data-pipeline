@@ -5,7 +5,7 @@
 
 This project implements a fully automated data pipeline that fetches data from a public API (guardian API) on a daily basis, stores it in Amazon S3, 
 the database is managed by relational database service and sent to datawarehouse (Redshift).
-The infrastructure is provisioned using Terraform, while the workflow is managed and scheduled via Apache Airflow.
+The infrastructure was provisioned using Terraform, while the workflow is managed and scheduled via Apache Airflow.
 
 
 **Tech Stack**
