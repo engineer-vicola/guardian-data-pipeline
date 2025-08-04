@@ -20,7 +20,7 @@ AWS S3 – Storage layer
 
 Airbyte - Data Integration
 
-Relational Database Service - database management 
+Relational Database Service - Database Management 
 
 Redshift - Datawarehouse
 
