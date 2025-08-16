@@ -3,8 +3,8 @@ from datetime import datetime
 from airflow import DAG
 from airflow.operators.python import PythonOperator
 
-from utils_api import get_guardian_api, convert_data, upload_to_s3, read_from_s3, write_to_rds
-
+from utils_api import (convert_data, get_guardian_api, read_from_s3,
+                       upload_to_s3, write_to_rds)
 
 default_args = {
     'owner': 'data_engineering_project',
@@ -14,7 +14,7 @@ default_args = {
 dag = DAG(
     dag_id="full_api_job",
     description="Fetching the data from the guardian API",
-    schedule="@daily",
+    schedule="0 8 * * *",
     start_date=datetime(2025, 7, 22),
     catchup=False,
     default_args=default_args
@@ -52,4 +52,12 @@ send_to_rds = PythonOperator(
 )
 
 
-extract_data >> converted_data >> write_to_s3 >> get_data_from_s3 >> send_to_rds
+(
+
+    extract_data
+    >> converted_data
+    >> write_to_s3
+    >> get_data_from_s3
+    >> send_to_rds
+
+)
